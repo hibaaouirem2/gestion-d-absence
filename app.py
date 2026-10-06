@@ -68,6 +68,7 @@ def ajouter_absence():
     db.session.commit()
     return jsonify({"message": "Absence enregistree", "absence": absence.to_dict()}), 201
 
+
 with app.app_context():
     db.create_all()
 
