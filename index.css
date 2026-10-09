@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; background: #f3f6f7; color: #1f2937; }
+
+.app { display: flex; min-height: 100vh; }
+
+.menu { width: 230px; background: #0b5348; color: white; padding: 28px 16px; }
+.menu h2 { margin: 0 0 4px 10px; }
+.sous-titre { margin: 0 0 28px 10px; font-size: 12px; opacity: 0.8; }
+.menu nav { display: flex; flex-direction: column; gap: 6px; }
+.menu a { color: white; text-decoration: none; padding: 12px 14px; border-radius: 8px; }
+.menu a.active { background: #0f766e; font-weight: 600; }
+
+.contenu { flex: 1; background: white; padding: 32px 40px; }
+
+.cartes { display: flex; gap: 16px; margin: 24px 0 32px; }
+.carte { flex: 1; background: #f3f4f6; border: 1px solid #d1d5db; border-radius: 10px; padding: 16px; }
+.carte-titre { font-size: 13px; color: #6b7280; }
+.carte-valeur { font-size: 22px; font-weight: 700; color: #0b5348; margin-top: 8px; }
+
+.ligne-matiere { display: flex; align-items: center; gap: 16px; margin: 16px 0; }
+.nom-matiere { width: 140px; }
+.piste { flex: 1; height: 12px; background: #e5e7eb; border-radius: 6px; overflow: hidden; }
+.barre { height: 100%; border-radius: 6px; }
+.pourcent { width: 55px; text-align: right; font-weight: 600; }
+
+.boutons { display: flex; gap: 16px; margin-top: 32px; }
+.bouton { flex: 1; text-align: center; padding: 14px; border-radius: 8px; font-weight: 600; text-decoration: none; }
+.plein { background: #0f766e; color: white; }
+.contour { border: 1.5px solid #0f766e; color: #0f766e; }
